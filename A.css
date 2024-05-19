@@ -1,0 +1,57 @@
+.menu{
+ background: #4f525a;
+ padding: 10px;
+ border-radius: 30px;
+
+}
+.menu h1{
+  display:unset;
+  margin-left:50px;
+  
+  font-weight: 700;
+  font-style:oblique;
+}
+.menu ul{
+  display:inline;
+  margin-left:30px;
+}
+.menu ul > li{
+  display:inline;
+  margin:5px;
+  font-size:15pt;
+  font-style:none;
+}
+
+.link-menu{
+  text-decoration:none;
+  color:white;
+}
+.link-menu:hover{
+  color:blue;
+}
+
+
+body {
+  background: #1b1c1e;
+}
+
+.sobre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+}
+
+.sobre img {
+  width: 500px;
+}
+
+.sobre h1,
+.sobre p {
+  width: 500px;
+  text-align: center;
+  margin: 10px 0;
+  color: white;
+}
+

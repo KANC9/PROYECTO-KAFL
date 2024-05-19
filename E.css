@@ -1,0 +1,56 @@
+.formulario_registro {
+  margin: 50px auto; 
+  width: 300px;
+  background: #1C272E;
+  padding: 60px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro {
+  text-align: center;
+  color: #fff;
+}
+
+.contexto {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitBTN {
+  width: 100%;
+  padding: 10px;
+  background: #4f525a;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submitBTN:hover {
+  background: #333;
+}
+
+legend {
+  background: #000;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+body {
+  background: #1b1c1e;
+}

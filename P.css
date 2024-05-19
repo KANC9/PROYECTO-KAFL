@@ -1,0 +1,178 @@
+body {
+  background: #1b1c1e;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #4f525a;
+}
+
+.menu {
+  color: white;
+}
+
+.menu h1 {
+  margin: 0;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.link-menu {
+  text-decoration: none;
+  color: white;
+}
+
+.link-menu:hover {
+  color: blue;
+}
+
+.user-info {
+  color: white;
+}
+
+.formulario-container {
+  margin: 50px auto;
+  width: 80%;
+  max-width: 800px;
+  background: #1C272E;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registro {
+  text-align: center;
+  color: #fff;
+}
+
+.formulario_retos {
+  margin-top: 20px;
+}
+
+.formulario_retos fieldset {
+  margin-bottom: 20px;
+  border: none;
+}
+
+.formulario_retos legend {
+  font-weight: bold;
+  color: #fff;
+}
+
+.formulario_retos label {
+  color: #fff;
+}
+
+.formulario_retos div {
+  margin-bottom: 10px;
+}
+
+.formulario_retos input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.submitBTN {
+  width: 100%;
+  padding: 10px;
+  background: #4f525a;
+  border: none;
+  border-radius: 5px;
+  color: #F0FFFF;
+  cursor: pointer;
+}
+
+.submitBTN:hover {
+  background: #fff;
+}
+
+p {
+  color: white;
+}
+
+
+.cube-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cube {
+  background-color: #1b1c1e;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenedor-estado {
+  margin-top: 20px;
+}
+
+.contenedor-estado h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.contenedor-estado table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contenedor-estado th,
+.contenedor-estado td {
+  padding: 10px;
+  text-align: center;
+}
+
+.contenedor-estado th {
+  background-color: #4f525a;
+  color: white;
+}
+
+.contenedor-estado tr:nth-child(even) {
+  background-color: #1C272E;
+}
+
+.contenedor-estado tr:hover {
+  background-color: #37474f;
+}
+
+.vnc-info {
+  margin-top: 20px;
+}
+
+.vnc-info h2 {
+  color: #fff;
+}
+
+.vnc-info p {
+  color: #fff;
+}
+
+.vnc-info a {
+  color: #4f525a;
+  text-decoration: none;
+}
+
+.vnc-info a:hover {
+  color: #fff;
+}
